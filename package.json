@@ -1,19 +1,29 @@
 {
   "name": "tahirtalib",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "description": "Tahir Talib Hussain's Card",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "tahirtalib": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tahirtalibhussain/Business-Card.git"
   },
+  "keywords": [
+    "tahirtalib"
+  ],
   "author": "Tahir Talib Hussain",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tahirtalibhussain/Business-Card/issues"
   },
-  "homepage": "https://github.com/tahirtalibhussain/Business-Card#readme"
+  "homepage": "https://github.com/tahirtalibhussain/Business-Card#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "colorette": "^1.0.7"
+  }
 }
